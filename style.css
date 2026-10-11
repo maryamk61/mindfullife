@@ -254,7 +254,7 @@ a:focus-visible {
 .platforms a:hover { background: var(--white); border-color: rgba(78,73,66,.25); }
 
 .packages { padding-bottom: 150px; }
-.section-heading { margin-bottom: 40px; text-align: center; }
+.section-heading { margin-bottom: 72px; text-align: center; }
 
 .package-grid {
   display: grid;
@@ -490,6 +490,7 @@ footer p { margin: 0; }
   .platforms { gap: 8px; }
   .platforms a { padding: 8px 14px; gap: 6px; }
   .packages { padding-bottom: 100px; }
+  .section-heading { margin-bottom: 48px; }
   .package-grid { grid-template-columns: 1fr; gap: 18px; }
   .package-card { padding: 32px 26px 28px; }
   .about { padding: 30px 0 50px; }
