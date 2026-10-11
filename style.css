@@ -55,20 +55,6 @@ a.logo {
   box-shadow: 0 1px 6px rgba(78,73,66,.06);
 }
 
-.nav nav {
-  display: flex;
-  gap: 38px;
-  color: var(--muted);
-  font-size: 1rem;
-}
-
-.nav nav a {
-  padding-bottom: 3px;
-  border-bottom: 1px solid rgba(78,73,66,.35);
-  transition: color .2s ease, border-color .2s ease;
-}
-.nav nav a:hover { color: var(--brown); border-bottom-color: var(--brown); }
-
 .top {
   position: relative;
   min-height: 80vh;
@@ -86,7 +72,6 @@ a.logo {
 }
 
 .top .nav { width: min(1160px, calc(100% - 48px)); }
-.top .nav nav { color: var(--brown); }
 
 .hero {
   flex: 1;
@@ -479,12 +464,6 @@ footer p { margin: 0; }
     gap: 10px 0;
     padding: 14px 0 0;
   }
-  .nav nav {
-    width: 100%;
-    justify-content: center;
-    gap: 22px;
-    font-size: .9rem;
-  }
 
   .top { min-height: 76vh; --veil: ellipse 95% 32%; }
   .top .nav, .hero { width: min(100% - 30px, 1160px); }
@@ -508,9 +487,11 @@ footer p { margin: 0; }
   footer {
     width: min(100% - 30px, 1160px);
     flex-direction: column;
+    align-items: center;
     text-align: center;
     gap: 10px;
   }
+  footer p { width: 100%; text-align: center; }
   .modal-inner { padding: 32px 22px 24px; }
   .modal-footer { margin: 0 -22px -24px; padding: 16px 22px 20px; }
   .modal h3 { font-size: 1.6rem; }
