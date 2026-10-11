@@ -467,8 +467,8 @@ footer p { margin: 0; }
 
   .top { min-height: 76vh; --veil: ellipse 95% 32%; }
   .top .nav, .hero { width: min(100% - 30px, 1160px); }
-  .logo-avatar { width: 32px; height: 32px; }
-  a.logo { gap: 10px; font-size: 1.1rem; }
+  .logo-avatar { width: 26px; height: 26px; }
+  a.logo { gap: 8px; font-size: .95rem; }
   .hero { padding: 20px 0 80px; }
   .hero-copy { padding: 0 8px; }
   h1 { font-size: 2.6rem; }
@@ -492,6 +492,7 @@ footer p { margin: 0; }
     gap: 10px;
   }
   footer p { width: 100%; text-align: center; }
+  footer .logo { display: none; }
   .modal-inner { padding: 32px 22px 24px; }
   .modal-footer { margin: 0 -22px -24px; padding: 16px 22px 20px; }
   .modal h3 { font-size: 1.6rem; }
