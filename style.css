@@ -71,7 +71,7 @@ a.logo {
 
 .top {
   position: relative;
-  min-height: 92vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   background:
@@ -95,7 +95,7 @@ a.logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px 0 160px;
+  padding: 40px 0 110px;
 }
 
 .hero-copy { max-width: 640px; text-align: center; }
@@ -473,13 +473,24 @@ footer p { margin: 0; }
     min-height: 72px;
     width: min(100% - 30px, 1160px);
   }
-  .nav nav { display: none; }
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 0;
+    padding: 14px 0 0;
+  }
+  .nav nav {
+    width: 100%;
+    justify-content: center;
+    gap: 22px;
+    font-size: .9rem;
+  }
 
-  .top { min-height: 88vh; --veil: ellipse 95% 32%; }
+  .top { min-height: 76vh; --veil: ellipse 95% 32%; }
   .top .nav, .hero { width: min(100% - 30px, 1160px); }
   .logo-avatar { width: 32px; height: 32px; }
   a.logo { gap: 10px; font-size: 1.1rem; }
-  .hero { padding: 20px 0 120px; }
+  .hero { padding: 20px 0 80px; }
   .hero-copy { padding: 0 8px; }
   h1 { font-size: 2.6rem; }
 
